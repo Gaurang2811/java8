@@ -146,7 +146,7 @@ public class Streams {
 		// get count of empty string
 		int count = (int) strings.stream().filter(string -> string.isEmpty()).count();
 
-		// using filter
+		// using limit
 		// The following code segment shows how to print 10 random numbers using
 		// limit.
 		random.ints().limit(10).forEach(System.out::println);
